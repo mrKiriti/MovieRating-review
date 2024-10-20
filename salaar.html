@@ -1,0 +1,265 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    /* CSS code to style the webpage */
+    header {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+  color: yellow;}
+  h1 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: color 0.3s; /* Add smooth color transition on hover */
+}
+
+nav a:hover {
+  color: #ffd700; /* Change the color on hover */
+}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .top-section {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      
+    }
+
+    .poster {
+      width: 300px;
+      height: 450px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .info {
+      margin-left: 20px;
+    }
+
+    .title {
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .rating {
+      font-size: 24px;
+      color: #f1c40f;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #a70000;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .description {
+      padding: 20px;
+      font-size: 18px;
+      color: #555;
+    }
+
+    .section {
+      padding: 20px;
+      border-top: 1px solid #ddd;
+    }
+
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .cast, .crew {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .person {
+      width: 150px;
+      text-align: center;
+    }
+
+    .person-image {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 0 auto;
+    }
+
+    .person-name {
+      font-size: 16px;
+      color: #333;
+      margin-top: 5px;
+    }
+
+    .reviews {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .review {
+      display: flex;
+      align-items: center;
+    }
+
+    .review-rating {
+      font-size: 18px;
+      color: #f1c40f;
+      margin-right: 10px;
+    }
+
+    .review-comment {
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+    
+    <header>
+        <h1>CinemaCircus🍿</h1>
+        <nav>
+            <a href="mrating.php">Home</a>
+            <a href="#">Movies</a>
+            <a href="#">Trailers</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="loginpage.html">Login</a>
+            <a href="registerpage.html">sign Up</a>
+        </nav>
+    </header>
+
+  <div class="container">
+    <div class="top-section">
+      <img src="salaar.jpg" alt="Movie poster" class="poster">
+      <div class="info">
+        <h1 class="title">Salaar: Cease Fire - Part 1</h1>
+        <p class="rating">8.4/10 | 38.3k Votes</p>
+        <a href="review_rating.html" class="button" id="ratingButton">Add your rating & review</a>
+        <p>Your rating matters</p>
+        <p>IMAX | 2D | MX4D | English, Hindi, Malayalam, Kannada, Tamil</p>
+        <p>2h 05m - Action , Thriller - A • 22 Dec ,2023</p>
+        <p>in cinemas</p>
+      </div>
+    </div>
+    <div class="description">
+      <p>About the movie</p>
+      <p>Brace yourself for an extraordinary tale of rebellion filled with power-packed action.</p>
+    </div>
+    <div class="section">
+      <h2 class="section-title">Cast</h2>
+      <div class="cast">
+        <div class="person">
+          <img src="cast and crew salaar\salaarcrew (4).jpeg" alt="Prabhas" class="person-image">
+          <p class="person-name">Prabhas as Deva</p>
+        </div>
+        <div class="person">
+          <img src="cast and crew salaar\salaarcrew (6).jpeg" alt="Prithviraj Sukumaran" class="person-image">
+          <p class="person-name">Prithviraj Sukumaran as Vedantam Masterji</p>
+        </div>
+        <div class="person">
+          <img src="cast and crew salaar\salaarcrew (9).jpeg" alt="Shruti Haasan" class="person-image">
+          <p class="person-name">Shruti Haasan as Aarya</p>
+        </div>
+        <div class="person">
+          <img src="cast and crew salaar\salaarcrew (7).jpeg" alt="Timo Ahrendt" class="person-image">
+          <p class="person-name">Timo Ahrendt as Gajapati 'Baba'</p>
+        </div>
+        <div class="person">
+          <img src="cast and crew salaar\salaarcrew (3).jpeg" alt="Jagapati Babu" class="person-image">
+          <p class="person-name">Jagapati Babu as Raja Manikyam</p>
+        </div>
+        <div class="person">
+          <img src="cast and crew salaar\salaarcrew (2).jpeg" alt="Easwaran Rao" class="person-image">
+          <p class="person-name">Easwaran Rao as Deva's Mother</p>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <h2 class="section-title">Crew</h2>
+      <div class="crew">
+        <div class="person">
+          <img src="cast and crew salaar\salaarcrew (5).jpeg" alt="Prashanth Neel" class="person-image">
+          <p class="person-name">Prashanth Neel Director</p>
+        </div>
+        <div class="person">
+          <img src="cast and crew salaar/salaarcrew (13).jpeg" alt="Vijay Kiragandur" class="person-image">
+          <p class="person-name">Vijay Kiragandur Producer</p>
+        </div>
+        <div class="person">
+          <img src="cast and crew salaar\salaarcrew (8).jpeg" alt="Ravi Basrur" class="person-image">
+          <p class="person-name">Ravi Basrur Musician</p>
+        </div>
+        <div class="person">
+          <img src="cast and crew salaar\salaarcrew (11).jpeg" alt="Bhuvan Gowda" class="person-image">
+          <p class="person-name">Bhuvan Gowda Cinematographer</p>
+        </div>
+        <div class="person">
+          <img src="cast and crew salaar/salaarcrew (12).jpeg" alt="Ujwal Kulkarni" class="person-image">
+          <p class="person-name">Ujwal Kulkarni Editor</p>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <h2 class="section-title">Top reviews Summary of 3380k reviews:</h2>
+      <p>#Blockbuster (20082) #SuperDirection (32325) #GreatActing (10441) #Rocking...</p>
+      <div class="reviews">
+        <div class="review">
+          <span class="review-rating">⭐⭐⭐⭐⭐10/10</span>
+          <span class="review-comment">#SuperDirection #GreatActing #WowMusic... MASTERPIECE! Salaar...directed by Prashanth Neel is simply brilliant! All RISE! BOOM! With love... man</span>
+        </div>
+        <!-- More reviews can be added here -->
+      </div>
+    </div>
+  </div>
+  <!-- <script>
+
+  // JavaScript code to add interactivity to the webpage
+  // For example, to handle the rating and review button clicks
+  document.addEventListener("DOMContentLoaded", function () {
+    var ratingButton = document.getElementById("ratingButton");
+
+    ratingButton.addEventListener("click", function (event) {
+      event.preventDefault();
+
+      // Open the desired PHP page (replace 'xpage.php' with the actual file name)
+      window.location.href = 'index.php';
+    });
+  });
+
+
+  </script> -->
+</body>
+</html>

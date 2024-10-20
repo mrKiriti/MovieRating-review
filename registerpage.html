@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinemaCircus Registration</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+            background-image: url("allmovie.jpg");
+        }
+
+        .register-container {
+            width: 300px;
+            background-color: #ffffff;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 2px 2px 2px rgba(0,0,0,0.1);
+        }
+
+        .register-container h2 {
+            margin-bottom: 20px;
+            color:black;
+        }
+      
+        input[type="text"], input[type="email"], input[type="password"], input[type="tel"]{
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .register-btn {
+            background-color: rgb(179, 24, 0); 
+            color: white; 
+            padding: 10px; 
+            width: 100%; 
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        
+        .register-btn:hover {
+            background-color: rgb(186, 66, 48);
+        }
+
+        .registered-users {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+        .Login_In {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .Login_In span {
+      color: #999;
+      margin-right: 5px;
+    }
+
+    .Login_In a {
+      color: rgb(177, 21, 0);
+      text-decoration: none;
+    }
+
+    .Login_In a:hover {
+      text-decoration: underline;
+    }
+    </style>
+</head>
+<body>
+
+<div class="register-container">
+    <h2>Join CinemaCircus🎬</h2>
+
+    <form action="connect.php" method="post">
+        
+        <input type="text" name="firstname" placeholder="First Name" required><br>
+
+        <input type="text" name="lastname" placeholder="Last Name" required><br>
+
+        <input type="email" name="emailid" placeholder="Email ID" required><br>
+
+        <input type="password" name="password" placeholder="Password" required><br>
+
+       
+
+        <!-- Add more fields as needed -->
+
+        <!-- Submit button -->
+        <button class="register-btn">Register</button> 
+        <div class="Login_In">
+        <span> Already Have an account </span>
+        <a href="loginpage.html">Login In</a>
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>

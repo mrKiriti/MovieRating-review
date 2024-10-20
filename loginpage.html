@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login to CinemaCircus</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+      margin-right: 200px;
+      margin-left: 70px;
+      width: 65%;
+      background-image: url("login_img.jpg");
+      background-size: cover;
+
+    }
+
+
+    .card {
+      width: 50%;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+    }
+
+    .card h1 {
+      color: #333;
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .card form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card form .input-group {
+      margin-bottom: 15px;
+      position: relative;
+    }
+
+    .card form .input-group input {
+      width: 100%;
+      height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .card form .input-group input:focus {
+      border-color: rgb(179, 24, 0);
+    }
+
+    .card form .input-group label {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      color: #999;
+      font-size: 16px;
+      transition: 0.3s;
+      pointer-events: none;
+    }
+
+    .card form .input-group input:not(:placeholder-shown) + label,
+    .card form .input-group input:focus + label {
+      top: 10px;
+      font-size: 12px;
+      color: rgb(179, 24, 0);
+    }
+
+    .card form .checkbox {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .card form .checkbox input {
+      display: none;
+    }
+
+    .card form .checkbox span {
+      width: 15px;
+      height: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card form .checkbox input:checked + span {
+      border-color: rgb(179, 24, 0);
+      background-color: rgb(179, 24, 0);
+    }
+
+    .card form .checkbox input:checked + span::after {
+      content: "\2713";
+      color: #fff;
+      font-size: 12px;
+    }
+
+    .card form .checkbox a {
+      color: #999;
+      text-decoration: none;
+    }
+
+    .card form .checkbox a:hover {
+      color: rgb(179, 24, 0);
+    }
+
+    .card form button {
+      width: 100%;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      background-color: rgb(179, 24, 0);
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .card form button:hover {
+      opacity: 0.9;
+    }
+
+    .card form .signup-link {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card form .signup-link span {
+      color: #999;
+      margin-right: 5px;
+    }
+
+    .card form .signup-link a {
+      color: rgb(173, 24, 4);
+      text-decoration: none;
+    }
+
+    .card form .signup-link a:hover {
+      text-decoration: underline;
+    }
+
+    .card form .signup-link .google {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      margin-left: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card form .signup-link .google img {
+      width: 20px;
+      height: 20px;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="card">
+      <h1>Welcome to CinemaCircus🍿..</h1>
+      <form action="login.php" method="POST">
+        <div class="input-group">
+          <input type="text" name="email" id="email" placeholder=" " required />
+          <label for="email">Email</label>
+        </div>
+        <div class="input-group">
+          <input type="password" name="password" id="password" placeholder=" " required />
+          <label for="password">Password</label>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="remember" id="remember" />
+          <span></span>
+          <label for="remember">Remember me </label>
+          <a href="#"> Forgot password?</a>
+        </div>
+        <button type="submit">Login</button>
+        <div class="signup-link">
+          <span>You don't have an account?</span>
+          <a href="registerpage.html">Sign up</a>
+          <div class="google">
+            <img src="google.png" alt="Google" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
