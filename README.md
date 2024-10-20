@@ -19,6 +19,26 @@ CinemaCircus 🍿 is a simple movie rating and review system built using HTML an
     - Rating
     - "Watch Trailer" button
   
+    -
+    ![Screenshot 2024-01-24 001933](https://github.com/user-attachments/assets/549c4f44-204f-4c36-a271-46e561d4f919)
+    ![Screenshot 2024-01-24 001909](https://github.com/user-attachments/assets/c512bd17-ce2a-4d8a-b324-29cd61b3911b)
+![Screenshot 2024-01-23 215056](https://github.com/user-attachments/assets/88c2c176-8364-4638-9965-a018b70ba799)
+![Screenshot 2024-01-23 215034](https://github.com/user-attachments/assets/bd46fc49-e46f-46b3-999b-1fdbd7ed4124)
+![Screenshot 2024-01-23 215153](https://github.com/user-attachments/assets/7d2ca0fd-c1b3-4067-8464-81f557869ca0)
+![Screenshot 2024-01-23 215211](https://github.com/user-attachments/assets/975615ee-41f4-4a79-83c7-2f29ebe91cf3)
+![Screenshot 2024-01-24 085738](https://github.com/user-attachments/assets/cf695f9a-03cd-4180-ac6e-9960211f77cc)
+ ![Screenshot 2024-01-23 215009](https://github.com/user-attachments/assets/3507aa29-17c3-4aca-a08a-f59b4823a6fb)
+
+
+
+
+
+
+
+
+
+
+  
 - **Responsive Design**: 
   - Layout adjusts to various screen sizes for optimal viewing on desktop and mobile devices.
 
